@@ -27,6 +27,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5e44a2ca-6c4e-40f2-a4c1-b2d321fbaa16"
+      }
+    },
+    "owner": "zak45"
   }
 }
