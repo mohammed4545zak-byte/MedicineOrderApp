@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Medicine Order App",
+    "name": "MediOrder",
     "slug": "medicine-order-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,19 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#2196F3"
-      }
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.zak45.medicineorderapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
     "extra": {
-      "router": {},
       "eas": {
-        "projectId": "5e44a2ca-6c4e-40f2-a4c1-b2d321fbaa16"
+        "projectId": "your-project-id-from-eas-configure"
       }
     }
   }
